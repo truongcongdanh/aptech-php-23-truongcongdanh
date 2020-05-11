@@ -1,0 +1,28 @@
+.div1 {
+    width: 25%;
+    height: 250px;
+    background-color: gray;
+    font-size: 24px;
+}
+.div1 a {
+    text-decoration: none;
+}
+.div1 a:hover {
+    color: red;
+}
+.div2 {
+    width: 75%;
+    height: 250px;
+    padding-left: 10px;
+}
+.divCha {
+    display: flex;
+}
+.titleAndFooter {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.div1 li {
+    list-style: none;
+}

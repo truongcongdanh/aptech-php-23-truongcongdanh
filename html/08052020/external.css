@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+p {
+    color: green;
+    margin-left: 300px;
+}
+body {
+    background-color: violet;
+}
+.mauDo {
+    color: red;
+}

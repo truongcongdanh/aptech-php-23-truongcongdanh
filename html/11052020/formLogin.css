@@ -1,0 +1,56 @@
+.hinh img{
+    position: absolute;
+    width: 59.3%;
+    height: auto;
+}
+.divCha {
+    position: relative;
+    width: 60%;
+    height: 600px;
+    background-color: white;
+    border: 2px solid gray;
+    margin-left: 18%;
+    margin-top:25px;
+    box-shadow: 5px 5px 10px;
+    border-radius: 3px;
+}
+.login {
+    margin-left: 62%;
+}
+.txtFullname {
+   background: none;
+   width: 90%;
+   height: 25px;
+}
+.txtPassword {
+    font-size: 24px;
+}
+.checkbox {
+    color: gray;
+    font-style: oblique;
+}
+.signup {
+    width: 40%;
+    height: 25px;
+    border-radius: 5px;
+    margin-left: 10%;
+    font-style: oblique;
+}
+.signup:hover {
+    background-color: red;
+    color: yellow;
+}
+.sign {
+    display: flex;
+}
+.signin {
+    margin-left: 10%;
+    margin-top: 5px;
+    font-style: oblique;
+}
+h4 {
+    font-style: oblique;
+}
+h1 {
+    font-style: oblique;
+}
