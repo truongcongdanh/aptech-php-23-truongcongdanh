@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    background-color: #333333;
+}
+.cover {
+    color: white;
+}
+.col-sm-6 .nav-link {
+    color: white;
+}
+.covertxt {
+    color: white;
+    font-style: oblique;
+}
+.center {
+    text-align: center;
+    padding: 10% 20% 20% 20%;
+}
+.footer {
+    text-align: center;
+    color: white;
+}
+.footer a {
+    text-decoration: none;
+}
