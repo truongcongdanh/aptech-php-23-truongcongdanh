@@ -1,0 +1,30 @@
+.noiDung {
+    padding-top: 128px;
+    text-align: center;
+    .iconB {
+        width: 72px;
+        height: 72px;
+        background-color: #563d7c;
+        font-size: 59px;
+        color: white;
+        border-radius: 9px;
+        margin-left: 40%;
+    }
+    .txt,.txt2 {
+        width: 90%;
+        height: 48px;
+    }
+    .txt2 {
+        margin-bottom: 12px;
+    }
+    .ple {
+        margin-bottom: 15px;
+    }
+    .btn-primary {
+        width: 80%;
+        height: 45px;
+    }
+    .copy {
+        color: gray;
+    }
+}

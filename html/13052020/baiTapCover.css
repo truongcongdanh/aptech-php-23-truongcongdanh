@@ -23,3 +23,10 @@ body {
 .footer a {
     text-decoration: none;
 }
+.gc {
+    border-left: 2px solid red !important;
+}
+.gc2:hover {
+    color: gray !important;
+    border-left: 2px solid red !important;
+}

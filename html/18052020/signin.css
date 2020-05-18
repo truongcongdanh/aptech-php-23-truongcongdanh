@@ -1,0 +1,37 @@
+.noiDung {
+  padding-top: 128px;
+  text-align: center;
+}
+
+.noiDung .iconB {
+  width: 72px;
+  height: 72px;
+  background-color: #563d7c;
+  font-size: 59px;
+  color: white;
+  border-radius: 9px;
+  margin-left: 40%;
+}
+
+.noiDung .txt, .noiDung .txt2 {
+  width: 90%;
+  height: 48px;
+}
+
+.noiDung .txt2 {
+  margin-bottom: 12px;
+}
+
+.noiDung .ple {
+  margin-bottom: 15px;
+}
+
+.noiDung .btn-primary {
+  width: 80%;
+  height: 45px;
+}
+
+.noiDung .copy {
+  color: gray;
+}
+/*# sourceMappingURL=signin.css.map */
