@@ -1,0 +1,17 @@
+.tit {
+    background-color: #343a40;
+    border-radius: 5px;
+    color: white;
+    padding: 5%;
+}
+.btf {
+    border-radius: 50px !important;
+}
+@media only screen and (max-width: 992px) {
+    .card-img {
+        display: none;
+    }
+}
+.car {
+    box-shadow: 1px 1px 4px;
+}

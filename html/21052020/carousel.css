@@ -1,0 +1,33 @@
+.crs {
+  color: white !important;
+}
+
+.imgg {
+  height: auto;
+  padding: 15% 15% 7% 15%;
+}
+
+@media only screen and (min-width: 768px) {
+  .txt {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .h11 {
+    font-size: 20px;
+  }
+}
+
+.htron {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.hed {
+  text-align: center;
+}
+/*# sourceMappingURL=carousel.css.map */
