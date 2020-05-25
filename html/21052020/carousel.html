@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-12">
                 <!-- menu -->
-                <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
                     <a class="navbar-brand crs" href="#">Carousel</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
@@ -35,9 +35,9 @@
                       </form>
                     </div>
                   </nav>
-
+                 <br>
                   <!-- Carousel -->
-                  <div id="carouselExampleControls" class="carousel slide mb-5" data-ride="carousel">
+                  <div id="carouselExampleControls" class="carousel slide mb-5 mt-4" data-ride="carousel">
                       <!-- 3 dấu gạch -->
                       <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -47,7 +47,7 @@
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                           <!-- carousel 1 -->
-                        <div class="imgg bg-secondary">
+                        <div class="imgg1">
                             <h1 class="h11">Example headline.</h1>
                             <p class="txt">Cras justo odio, dapibus ac facilisis in, egestas 
                             eget quam. Donec id elit non mi porta gravida at eget metus. 
@@ -57,7 +57,7 @@
                       </div>
                       <div class="carousel-item">
                         <!-- carousel 2 -->
-                        <div class="imgg bg-secondary text-center">
+                        <div class="imgg2 text-center">
                             <h1 class="h11">Another example headline.</h1>
                             <p class="txt">Cras justo odio, dapibus ac facilisis in, egestas eget
                                 quam. Donec id elit non mi porta gravida at eget metus. Nullam id 
@@ -67,7 +67,7 @@
                       </div>
                       <div class="carousel-item">
                         <!-- carousel 3 -->
-                        <div class="imgg bg-secondary text-right">
+                        <div class="imgg3 text-right">
                             <h1 class="h11">One more for good measure.</h1>
                             <p class="txt">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
                                 Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh
@@ -95,19 +95,130 @@
     <div class="container">
         <div class="row">
             <!-- heading 1 -->
-            <div class="col-12 hed">              
-                <div class="htron"></div>
+            <div class="col-12 col-lg-4 hed d-flex justify-content-center mb-5">
+              <div>             
+                <div class="htron d-inline-block"></div>
                 <h3>Heading</h3>
                 <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. 
                 Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, 
                 porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                <button type="button" class="btn btn-secondary">View details</button>
+                <button type="button" class="btn btn-secondary">View details &raquo;</button>
+              </div> 
             </div>
-            <div class="col-12"></div>
-            <div class="col-12"></div>
-        </div>
-    </div>
 
+            <!-- heading 2 -->
+            <div class="col-12 col-lg-4 hed d-flex justify-content-center mb-5">
+              <div>             
+                <div class="htron d-inline-block"></div>
+                <h3>Heading</h3>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. 
+                Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, 
+                porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                <button type="button" class="btn btn-secondary">View details &raquo;</button>
+              </div> 
+            </div>
+
+             <!-- heading 3 -->
+             <div class="col-12 col-lg-4 hed d-flex justify-content-center mb-5">
+              <div>             
+                <div class="htron d-inline-block"></div>
+                <h3>Heading</h3>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. 
+                Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, 
+                porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                <button type="button" class="btn btn-secondary">View details &raquo;</button>
+              </div> 
+            </div>
+
+        </div>
+        <hr>
+        <br>
+    </div>
+    <!-- First featurette -->
+    <div class="container">
+      <div class="row">
+        <!-- First featurette -->
+        <div class="col-12 col-md-7 d-flex align-items-center">
+          <div class="d-inline-block">
+            <h1>
+              First featurette heading. It’ll blow your mind.
+            </h1>
+            <p class="lead">
+              Donec ullamcorper nulla non metus auctor fringilla. 
+              Vestibulum id ligula porta felis euismod semper. Praesent 
+              commodo cursus magna, vel scelerisque nisl consectetur. Fusce 
+              dapibus, tellus ac cursus commodo.
+            </p>
+        </div>
+        </div>
+        <!-- Ảnh -->
+        <div class="col-12 col-md-5 anh"></div>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <!-- Oh yeah -->
+     <div class="container">
+      <div class="row">
+        <!-- Ảnh -->
+        <div class="col-12 col-md-5 anh2"></div>
+        <!-- Oh yeah -->
+        <div class="col-12 col-md-7 d-flex align-items-center">
+          <div class="d-inline-block">
+            <h1>
+              Oh yeah, it’s that good. See for yourself.
+            </h1>
+            <p class="lead">
+              Donec ullamcorper nulla non metus auctor fringilla. 
+              Vestibulum id ligula porta felis euismod semper. Praesent 
+              commodo cursus magna, vel scelerisque nisl consectetur. Fusce 
+              dapibus, tellus ac cursus commodo.
+            </p>
+        </div>
+        </div>        
+      </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <!-- And lastly -->
+     <div class="container">
+      <div class="row">
+       
+        <!-- And lastly -->
+        <div class="col-12 col-md-7 d-flex align-items-center">
+          <div class="d-inline-block">
+            <h1>
+              And lastly, this one. Checkmate.
+            </h1>
+            <p class="lead">
+              Donec ullamcorper nulla non metus auctor fringilla. 
+              Vestibulum id ligula porta felis euismod semper. Praesent 
+              commodo cursus magna, vel scelerisque nisl consectetur. Fusce 
+              dapibus, tellus ac cursus commodo.
+            </p>
+        </div>
+        </div>   
+         <!-- Ảnh -->
+         <div class="col-12 col-md-5 anh3"></div>     
+      </div>
+    </div>
+<br>
+<br>
+<hr>
+
+    <!-- footer -->
+    <div class="container">
+      <div class="row pt-4 pb-4">
+        <div class="col-6">
+          <p>&copy; 2017-2019 Company,lnc, <a href="#">Privacy</a> <a href="#">Terms</a></p>
+        </div>
+        <div class="col-6 text-right">
+          <p><a href="#">Back to top</a></p>
+        </div>
+      </div>
+    </div>
 
     <script src="../jquery.min.js"></script>
     <script src="../bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>

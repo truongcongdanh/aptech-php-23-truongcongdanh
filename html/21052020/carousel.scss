@@ -1,9 +1,53 @@
 .crs {
     color: white !important;
 }
-.imgg {
-    height: auto;
+// carousel 1
+.imgg1 {
+    height: 90vh;
     padding: 15% 15% 7% 15%;
+    background-image: url(../img/nen1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+// carousel 2
+.imgg2 {
+    height: 90vh;
+    padding: 15% 15% 7% 15%;
+    background-image: url(../img/nen2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+// carousel 3
+.imgg3 {
+    height: 90vh;
+    padding: 15% 15% 7% 15%;
+    background-image: url(../img/nen3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.anh {
+    background-image: url(../img/girl7.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 450px;
+}
+.anh2 {
+    background-image: url(../img/girl6.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 450px;
+}
+.anh3 {
+    background-image: url(../img/girl5.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 450px;
+}
+.nav-link {
+    color: white !important;
 }
 @media only screen and (min-width: 768px) {
     .txt {
@@ -21,7 +65,11 @@
     height: 150px;
     border-radius: 50%;
     background-color: grey;
+    background-image: url("../img/girl.jpg") !important;
+    background-size: cover;
 }
 .hed {
     text-align: center;
 }
+
+
