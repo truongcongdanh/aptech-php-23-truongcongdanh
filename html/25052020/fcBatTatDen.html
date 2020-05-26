@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Bật tắt bóng đèn</title>
+</head>
+
+<body>
+    <img id="den" src="../img/toi.gif">
+    <button id="bat" onclick="batDen()">Bật bóng đèn</button>
+    <button id="tat" onclick="tatDen()" style="display: none;">Tắt bóng đèn</button>
+    
+    <script src="../jquery.min.js"></script>
+
+    <script>
+        function batDen() {
+            document.getElementById('den').src='../img/sang.gif';
+            $('#bat').hide();
+            $('#tat').show();
+            // document.getElementById('bat').innerHTML = 'Tắt bóng đèn';
+        }
+
+        function tatDen() {
+            document.getElementById('den').src='../img/toi.gif';
+            $('#tat').hide();
+            $('#bat').show();
+        }
+    </script>
+</body>
+</html>
