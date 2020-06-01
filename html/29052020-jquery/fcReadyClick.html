@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>   
+    <title>Function Ready Click</title>
+</head>
+
+<body>
+    <h1 id="chu">Aptech PHP 23</h1>
+    <button id="btn">An Chu</button>
+
+    <script src="../jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // $('#chu').html('Xin chao');
+            $('#chu').click(function () {
+                $(this).hide(1000);
+            });
+            $('#btn').click(function () {
+                $('#chu').hide(1000);
+            })
+        })
+    </script>
+</body>
+
+</html>

@@ -1,6 +1,6 @@
 var data = {
     hocSinh: [
-        {
+       , {
             "Id": "A01",
             "Ten": "Cúc Tịnh Y",
             "Lop": "Aptech1800",
@@ -54,6 +54,7 @@ var data = {
 
 // data.hocSinh    
 
+function inData() {
 for (var i = 0; i < data.hocSinh.length; i++) {
     // console.log(data.hocSinh[i]);
    document.getElementById('table-body').innerHTML += 
@@ -66,6 +67,9 @@ for (var i = 0; i < data.hocSinh.length; i++) {
     "</tr>"
    ;
 }
+}
 
+
+  
 
   
