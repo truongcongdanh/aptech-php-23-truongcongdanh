@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Json</title>
+</head>
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        /* width: 100%; */
+        margin-top: 10%;
+    }
+td, th {
+  border: 1px solid #dddddd;
+  /* text-align: left; */
+  padding: 8px;
+}
+
+</style>
+<body>
+    <div id="demo"></div>
+    <button id="nutAn">click in data</button>
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>email</th>
+                <th>password</th>
+                <th>created_at</th>
+                <th>updated_at</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+
+        </tbody>
+    </table>
+
+  
+
+    <script>
+        $(document).ready(function () {
+            $('#nutAn').click(function () { 
+               $.get('https://namcoi.com/du-an/aptech-php-laravel-crud-user/public/api/users', function(data, status)
+               {
+                    // $('#demo').html(data.class);
+                //  console.log(data.users[0].id + "-" +data.users[0].name);
+
+                    for (var i = 0; i < data.users.length; i++) {
+                        // console.log(data.hocSinh[i]);
+                    document.getElementById('table-body').innerHTML += 
+                        "<tr>"+
+                            "<td>"+data.users[i].id+"</td>"+
+                            "<td>"+data.users[i].name+"</td>"+
+                            "<td>"+data.users[i].email+"</td>"+
+                            "<td>"+data.users[i].password+"</td>"+
+                            "<td>"+data.users[i].created_at+"</td>"+
+                            "<td>"+data.users[i].updated_at+"</td>"+
+                        "</tr>"
+                    ;
+                    }
+               }
+               );
+                
+            });
+        });
+    </script>
+</body>
+</html>

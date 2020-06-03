@@ -1,6 +1,6 @@
 var data = {
     hocSinh: [
-       , {
+        {
             "Id": "A01",
             "Ten": "Cúc Tịnh Y",
             "Lop": "Aptech1800",

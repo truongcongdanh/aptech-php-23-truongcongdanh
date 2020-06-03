@@ -1,0 +1,36 @@
+.kiTu {
+    font-size: 32px;
+    margin-top: -15px;
+}
+.imgg1 {
+    background-image: url(../img/nen1.jpg);
+    height: 70vh;
+    background-size: cover;
+   padding: 20% 15% 0% 15%;
+}
+.imgg2 {
+    background-image: url(../img/nen2.jpg);
+    height: 70vh;
+    background-size: cover;
+    padding: 20% 15% 0% 15%;
+}
+.imgg3 {
+    background-image: url(../img/nen3.jpg);
+    height: 70vh;
+    background-size: cover;
+    padding: 20% 15% 0% 15%;
+}
+@media only screen and (max-width: 768px) {
+    .an {
+        display: none;
+    }
+}
+.slide {
+    color: white;
+    text-align: center;
+}
+.slide2 {
+    background-color: greenyellow;
+    text-align: center;
+    color: white;
+}
