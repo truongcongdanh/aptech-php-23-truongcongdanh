@@ -3,25 +3,22 @@
   margin-top: -15px;
 }
 
-.imgg1 {
-  background-image: url(../img/nen1.jpg);
+.imgg1, .imgg2, .imgg3 {
   height: 70vh;
   background-size: cover;
   padding: 20% 15% 0% 15%;
+}
+
+.imgg1 {
+  background-image: url(../img/nen1.jpg);
 }
 
 .imgg2 {
   background-image: url(../img/nen2.jpg);
-  height: 70vh;
-  background-size: cover;
-  padding: 20% 15% 0% 15%;
 }
 
 .imgg3 {
   background-image: url(../img/nen3.jpg);
-  height: 70vh;
-  background-size: cover;
-  padding: 20% 15% 0% 15%;
 }
 
 @media only screen and (max-width: 768px) {

@@ -1,0 +1,62 @@
+.hinhAnh {
+  background-image: url(../img/anime.jpg);
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  padding: 10% 15% 5% 15%;
+}
+
+.build {
+  color: white;
+}
+
+.fa-desktop, .fa-buffer, .fa-d-and-d {
+  font-size: 72px;
+  color: #007bff;
+}
+
+.imgg, .imgg1, .imgg2 {
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imgg1 {
+  background-image: url(../img/girl13.jpg);
+  background-position: bottom -40px right 0px;
+}
+
+.imgg {
+  background-image: url(../img/girl12.jpg);
+}
+
+.imgg2 {
+  background-image: url(../img/girl14.jpg);
+  background-position: top -200px right 0px;
+}
+
+.avt .col-12 .avt1, .avt .col-12 .avt2, .avt .col-12 .avt3 {
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.avt .col-12 .avt1 {
+  background-image: url(../img/girl8.jpg);
+}
+
+.avt .col-12 .avt2 {
+  background-image: url(../img/girl10.jpg);
+}
+
+.avt .col-12 .avt3 {
+  background-image: url(../img/girl11.jpg);
+}
+
+.fa-facebook-square, .fa-twitter-square, .fa-instagram {
+  font-size: 32px;
+  color: #007bff;
+}
+/*# sourceMappingURL=landing.css.map */
