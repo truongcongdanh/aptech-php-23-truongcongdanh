@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giao diện News</title>
+    <link rel="stylesheet" href="../fontawesome-free-5.13.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="news.css">
+</head>
+<body>
+    <!-- menu news -->
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col-md-4 d-none d-md-block">
+                <button type="button" class="btn btn-outline-danger">SIGN UP NOW</button>
+            </div>
+            <div class="col-6 col-md-4 text-md-center">
+                <h1 class="new">NEWS</h1>
+            </div>
+            <div class="col-md-4 d-none d-md-block text-right">
+                <input type="text" placeholder="Search..." id="search">
+                <i class="fas fa-search text-muted pl-4" id="btnSearch"></i>
+                <button type="button" class="btn btn-outline-success ml-2">SIGN IN</button>
+            </div>
+            <!-- menu ẩn hiện khi reponsive -->
+            <div class="col-6 text-right d-block d-md-none">
+                <i class="fas fa-angle-down" id="btnAn"></i>
+                <i class="fas fa-angle-left" id="btnHien"></i>
+            </div>
+            <div class="col-12" id="hideShow">
+                <ul class="list-unstyled lead d-md-flex justify-content-between">
+                    <li class="d-none d-md-block ktdb">&lsaquo;</li>
+                    <li>Home</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>PHP</li>
+                    <li>React Js</li>
+                    <li>Laravel</li>
+                    <li class="d-none d-md-block ktdb">&rsaquo;</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="mt-0">
+    </div>
+
+    <!-- hot new -->
+    <div class="container">
+        <div class="row">
+            <!-- card1 -->
+            <div class="col-6 col-md-4 pr-1">
+                <div class="imgg">
+                    <h3 class="text-light">Card title</h3>
+                    <p class="lead text-light">
+                        Get started with Bootstrap, the world’s most popular framework 
+                        for building responsive, mobile-first sites, with BootstrapCDN and 
+                        a template starter page.
+                    </p>
+                </div>
+            </div>
+            <!-- card2 -->
+            <div class="col-md-4 d-none d-md-block p-0">
+                <div class="imgg2">
+                    <h3 class="text-light">Card title</h3>
+                    <p class="lead text-light">
+                        Get started with Bootstrap, the world’s most popular framework 
+                        for building responsive, mobile-first sites, with BootstrapCDN and 
+                        a template starter page.
+                    </p>
+                </div>
+            </div>
+            <!-- table -->
+            <div class="col-6 col-md-4">
+                <div class="table">
+                    <!-- t1 -->
+                    <div class="td td1 pl-5 align-items-center d-flex bg-light">Hot News</div>
+                    <!-- td2 -->
+                    <div class="td pl-5 align-items-center d-flex">
+                        Convey meaning color... &nbsp<i class="fab fa-node-js p-2 bg-success"></i>
+                    </div>
+                    <!-- td3 -->
+                    <div class="td pl-5 align-items-center d-flex">
+                        Convey meaning color... &nbsp<i class="fab fa-css3-alt p-2 bg-danger"></i>
+                    </div>
+                    <!-- td4 -->
+                    <div class="td pl-5 align-items-center d-flex">
+                        Convey meaning color... &nbsp<i class="fab fa-js-square p-2 bg-warning"></i>
+                    </div>
+                    <!-- td5 -->
+                    <div class="td pl-5 align-items-center d-flex">
+                        Convey meaning color... &nbsp<i class="fab fa-node-js p-2 bg-success"></i>
+                    </div>
+                    <!-- td6 -->
+                    <div class="td td2 pl-5 align-items-center d-flex">
+                        Convey meaning color... &nbsp<i class="fab fa-html5 p-2 bg-success"></i>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <hr>
+    </div>
+    <!-- Feature -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12  d-flex justify-content-between">
+                <button type="button" class="btn btn-success ml-5">Feature</button>
+                <p class="lead pr-5">MORE <strong class="kt"> &rsaquo;</strong></p>
+            </div>
+            <!-- card -->
+            <div class="col-12 mt-4 col-md-8">
+                    <!-- card1 -->
+                    <div class="row">
+                        <div class="col-6 mb-2">
+                            <div class="card-group">
+                                <div class="card">
+                                    <img src="../img/img2.jpg" class="card-img-top anhh1" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card2 -->
+                        <div class="col-6 mb-2">
+                            <div class="card-group">
+                            <div class="card">
+                            <img src="../img/img2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- card3 -->
+                        <div class="col-md-6 d-none d-md-block">
+                            <div class="card-group">
+                            <div class="card">
+                            <img src="../img/img2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- card4 -->
+                        <div class="col-md-6 d-none d-md-block">
+                            <div class="card-group">
+                                <div class="card">
+                                    <img src="../img/img2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <!-- card 22 -->
+            <div class="mt-4 col-md-4 d-none d-md-block">
+                <div class="card-group h-100">
+                    <div class="card">
+                      <img src="../img/girl4.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below 
+                            as a natural lead-in to additional content. This content is a little bit longer.
+                            In addition to styling the content within cards, Bootstrap includes a few options 
+                            for laying out series of cards. For the time being, these layout
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <!-- hot -->
+    <!-- Feature -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12  d-flex justify-content-between">
+                <button type="button" class="btn btn-danger ml-5">Hot</button>
+                <p class="lead pr-5">MORE <strong class="kt"> &rsaquo;</strong></p>
+            </div>
+            <!-- card 2-2 -->
+            <div class="mt-4 col-md-4 d-none d-md-block">
+                <div class="card-group h-100">
+                    <div class="card">
+                      <img src="../img/girl4.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below 
+                            as a natural lead-in to additional content. This content is a little bit longer.
+                            In addition to styling the content within cards, Bootstrap includes a few options 
+                            for laying out series of cards. For the time being, these layout
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card -->
+            <div class="col-12 mt-4 col-md-8">
+                    <!-- card1 -->
+                    <div class="row">
+                        <div class="col-6 mb-2">
+                            <div class="card-group">
+                                <div class="card">
+                                    <img src="../img/img2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card2 -->
+                        <div class="col-6 mb-2">
+                            <div class="card-group">
+                            <div class="card">
+                            <img src="../img/img2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- card3 -->
+                        <div class="col-md-6 d-none d-md-block">
+                            <div class="card-group">
+                            <div class="card">
+                            <img src="../img/img2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- card4 -->
+                        <div class="col-md-6 d-none d-md-block">
+                            <div class="card-group">
+                                <div class="card">
+                                    <img src="../img/img2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+    </div>
+
+    <hr>
+    <!-- footer -->
+    <div class="container">
+        <div class="row">
+            <!-- hệ thống... -->
+            <div class="col-9 col-md-6">
+                <ul class="list-unstyled">
+                    <li><strong><h3>HỆ THỐNG ĐÀO TẠO CNTT QUỐC TẾ SOFTECH APTECH</h3></strong></li>
+                    <li><p class="lead">Địa chỉ: Tòa nhà VNPT,38 Yên Bái,quận Hải Châu,tp Đà Nẵng</p></li>
+                    <li><p class="lead">Điện thoại: 0236.3.779.779 - Fax: 0236.3.779.555</p></li>
+                    <li><p class="lead">Emai: tuyensinh@softtech.vn</p></li>
+                    <li><img src="../img/softtech1.jpg" height="60px"></li>
+                    <li>&copy; Aptech PHP 23- 2018</li>
+                </ul>
+            </div>
+            <!-- Navigation -->
+            <div class="col-md-3 d-none d-md-block">
+                <ul class="list-unstyled">
+                    <li><strong>Navigation</strong></li>
+                    <li>HOME</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <!-- About -->
+            <div class="col-3 col-md-3">
+                <ul class="list-unstyled">
+                    <li><strong>About</strong></li>
+                    <li>Team</li>
+                    <li>Location</li>
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- scroll -->
+    <div class="jscroll-to-top">
+        <a href="#back-to-top" class="back-to-top btn-light btn-lg"><i class="fa fa-angle-up"></i></a>
+    </div>
+    
+<script src="../jquery.min.js"></script>
+<script src="news.js"></script>
+</body>
+</html>
