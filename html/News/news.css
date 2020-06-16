@@ -1,10 +1,8 @@
-.fa-angle-down, .fa-angle-left {
-  font-size: 64px;
-  color: #28a744;
-}
-
-.fa-angle-down {
-  display: none;
+.fa-bars {
+  font-size: 24px;
+  background-color: #28a744;
+  color: white;
+  border-radius: 5px;
 }
 
 .new {

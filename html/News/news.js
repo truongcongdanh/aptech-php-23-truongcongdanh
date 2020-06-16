@@ -1,16 +1,19 @@
 
 $(document).ready(function () {
-    // click button ẩn
-    $('#btnAn').click(function () { 
-        $('#hideShow').hide(500);
-        $('#btnHien').show(200);
-        $('#btnAn').hide(200);
-    });
-    // click button hiện
-    $('#btnHien').click(function () { 
-        $('#hideShow').show(500);
-        $('#btnHien').hide(200);
-        $('#btnAn').show(200);
+    // // click button ẩn
+    // $('#btnAn').click(function () { 
+    //     $('#hideShow').hide(500);
+    //     $('#btnHien').show(200);
+    //     $('#btnAn').hide(200);
+    // });
+    // // click button hiện
+    // $('#btnHien').click(function () { 
+    //     $('#hideShow').show(500);
+    //     $('#btnHien').hide(200);
+    //     $('#btnAn').show(200);
+    // });
+    $('.togg').click(function (e) { 
+        $('#hideShow').toggle(500);
     });
     // click button btnSearch
    
