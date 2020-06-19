@@ -53,7 +53,7 @@
     </thead>
 
     <tbody>
-        <!-- in product in table 1 -->
+        <!-- print product in table 1 -->
         <?php for($i = 0; $i < count($Product); $i++) {?>
             <tr>
                 <td> <?php echo ($i +1); ?> </td>
@@ -63,7 +63,7 @@
             </tr>
         <?php }?>
   
-        <!-- in product in table nâng cao -->
+        <!-- print product in table advance -->
         <tr><td colspan="4">in product bằng 2 vòng lặp</td></tr>
         <?php for($i = 0; $i < count($Product); $i++) { ?>
             <tr>
