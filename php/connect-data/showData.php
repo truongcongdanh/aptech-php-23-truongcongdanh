@@ -6,57 +6,67 @@
         border: 1px solid red;
         padding: 8px;
     }
+    a {
+        text-decoration: none;
+    }
 </style>
 <?php
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "aptech_php_23";
+$dbname = "aptech_php_23_04";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
+$id = $_GET['id'];
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT ID, Name, Pasword FROM aptech_php_23.data";
+$sql = "SELECT id, ten, email FROM $dbname.data WHERE id='$id'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) { ?>
-    <table>
+<button><a href="http://localhost/AptechPHP04052020/php/connect-data/showTableData.php">Home</a></button>
+<br> <br>
+  <table>
         <thead>
             <td>id</td>
             <td>name</td>
             <td>Password</td>
+            <td>Action</td>
         </thead>
-<?php
-  // output data of each row
-  while($row = $result->fetch_assoc()) { ?>
-    <!-- echo "id: " . $row["ID"]. " - Name: " . $row["Name"]. " - Password: " . $row["Pasword"]. "<br>"; -->
-    <tbody>
+  <?php
+ while($row = $result->fetch_assoc()) {
+    ?> 
+      <tbody>
             <tr>
                 <td>
                     <?php 
-                        echo $row["ID"];
+                        echo $row["id"];
                     ?>
                 </td>
                 <td>
                     <?php 
-                        echo $row["Name"];
+                        echo $row["ten"];
                     ?>
                 </td>
                 <td>
                     <?php 
-                        echo $row["Pasword"];
+                        echo $row["email"];
                     ?>
+                </td>
+                <td>
+                    <input type="submit" value="Show"/> ||
+                    <?php echo "<button><a href='formUpdateData.php?id=".$row['id']."'>Update</a></button> ||" ?>
+                    <?php echo "<button><a href='deleteData.php?id=".$row['id']."'>Delete</a></button>" ?>
                 </td>
             </tr>
     </tbody>
-  <?php }
-?>
-<?php } 
-else {
+    <?php
+ }
+} else {
   echo "0 results";
 }
 $conn->close();
