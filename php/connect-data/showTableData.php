@@ -10,6 +10,10 @@
     a {
         text-decoration: none;
     }
+    .btnFS {
+        float: left;
+        padding-right: 150px;
+    }
 </style>
 <?php
 $servername = "localhost";
@@ -28,8 +32,15 @@ $sql = "SELECT id, ten, email FROM $dbname.data";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) { ?>
+<div class="btnFS">
 <button><a href="formCreateData.html">Create a new user</a></button>
-<br> <br>
+</div>
+<form action="search.php" method="get">
+    <input type="text" name="search" />
+    <input type="submit" name="ok" value="search" />
+</form>
+
+<br>
     <table>
         <thead>
             <td>id</td>

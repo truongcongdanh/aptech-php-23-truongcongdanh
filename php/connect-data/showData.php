@@ -28,7 +28,7 @@ $sql = "SELECT id, ten, email FROM $dbname.data WHERE id='$id'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) { ?>
-<button><a href="http://localhost/AptechPHP04052020/php/connect-data/showTableData.php">Home</a></button>
+<button><a href="showTableData.php">Home</a></button>
 <br> <br>
   <table>
         <thead>
@@ -58,7 +58,6 @@ if ($result->num_rows > 0) { ?>
                     ?>
                 </td>
                 <td>
-                    <input type="submit" value="Show"/> ||
                     <?php echo "<button><a href='formUpdateData.php?id=".$row['id']."'>Update</a></button> ||" ?>
                     <?php echo "<button><a href='deleteData.php?id=".$row['id']."'>Delete</a></button>" ?>
                 </td>
