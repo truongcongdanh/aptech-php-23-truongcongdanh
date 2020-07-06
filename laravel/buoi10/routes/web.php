@@ -15,5 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('users','UserController');
-
+Route::get('/users','MyController@index');
