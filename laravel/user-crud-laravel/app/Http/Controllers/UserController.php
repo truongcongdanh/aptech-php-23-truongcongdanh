@@ -103,6 +103,7 @@ class UserController extends Controller
     {
         $user = User::find($id);
         $user->delete();
+        // User::destroy($id);
         return redirect()->route('users.index');
     }
 }
