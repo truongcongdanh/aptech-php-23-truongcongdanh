@@ -106,4 +106,13 @@ class UserController extends Controller
         // User::destroy($id);
         return redirect()->route('users.index');
     }
+    // search
+    public function search()
+    {
+        Player::where('name', 'LIKE', "%$name%")->get();
+    
+        return view('users.search')
+                ->with('name', $name)
+                ->with('searchResult', $searchResult);
+    }
 }
