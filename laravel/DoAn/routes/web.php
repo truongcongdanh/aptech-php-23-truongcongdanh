@@ -15,4 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('/data','DataController');
+// Route::resource('/data','DataController');
+Route::get('trangChu', 'DataController@trangChu')->name('trangChinh');
+Route::get('monAn', 'DataController@monAn')->name('trangMonAn');
+Route::get('thucUong', 'DataController@thucUong')->name('trangThucUong');
+Route::get('compo', 'DataController@compo')->name('trangCompo');
+Route::get('giamGia', 'DataController@giamGia')->name('trangGiamGia');
+Route::get('lienHe', 'DataController@lienHe')->name('trangLienHe');
+

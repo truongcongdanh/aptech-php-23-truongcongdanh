@@ -14,7 +14,7 @@ class DataController extends Controller
      */
     public function index()
     {
-        return view('conponent.index');
+        return view('conponent.trangChu');
     }
 
     /**
@@ -26,6 +26,37 @@ class DataController extends Controller
     {
         //
     }
+    // 
+    public function trangChu()
+    {
+        return view('component.trangChu');
+    }
+
+    public function monAn()
+    {
+        return view('component.monAn');
+    }
+ 
+    public function thucUong()
+    {
+        return view('component.thucUong');
+    }
+
+    public function compo()
+    {
+        return view('component.compo');
+    }
+
+    public function giamGia()
+    {
+        return view('component.giamGia');
+    }
+
+    public function lienHe()
+    {
+        return view('component.lienHe');
+    }
+
 
     /**
      * Store a newly created resource in storage.

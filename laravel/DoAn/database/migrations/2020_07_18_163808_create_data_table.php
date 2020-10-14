@@ -13,8 +13,11 @@ class CreateDataTable extends Migration
      */
     public function up()
     {
-        Schema::create('data', function (Blueprint $table) {
+        Schema::create('DoAn', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('ten');
+            $table->string('gia');
+            $table->string('img');
             $table->timestamps();
         });
     }

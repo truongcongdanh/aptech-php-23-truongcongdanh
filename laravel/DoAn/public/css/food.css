@@ -1,0 +1,140 @@
+
+
+.img-layout {
+    width: 100%;
+    border-top:1px #10151a;
+    border-left:1px #10151a;
+    border-right:1px #10151a;
+   	border-radius: 15px;
+	height: 250px;
+}
+
+/* 
+.row-footer {
+	background-image: linear-gradient(#003E52, #199AB4);
+} */
+
+.p {
+	background-color: #C0C3F1;
+	color: red;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+button,h3,b,p a:hover {
+	text-decoration: none;
+}
+
+.img-body .col-sm-4 {
+	
+	margin: 11px;
+	border: 1px solid #dcdcdc;
+	box-shadow: -4px 4px 0 #dcdcdc;
+	padding: 11px;
+}
+
+
+/**/
+	.b {
+		background-color: yellow;
+		width: 50%;
+	}
+	.p {
+		background-color: #ffffff;
+		color: blue;
+	}
+
+	b {
+		color: red; 
+	}
+	.checked {
+		color: yellow;
+	}
+	.che {
+		color: gray;
+	}
+	.dg {
+		border-radius: 2rem;
+		color: blue;
+	}
+	.dg:hover {
+
+		color: red;
+	}
+
+	.cd {
+		text-align: center;
+	}
+/* Phần liên hệ */
+.contact {
+	background-size: cover;
+	height:20vh;
+	width: 100%;
+}
+
+.tenTrang {
+	background-image: url(../img/imgTrang.jpg);
+	background-size: cover;
+	height:20vh;
+	width: 100%;
+	font-size: 25px;
+	padding-left: 70px;
+	padding-top: 40px;
+}
+.tenTrangPhu {
+	position: relative;
+	background-image: url(../img/imgTrang.jpg);
+	background-size: cover;
+	height: 8vh;
+	width: 100%;
+	font-size: 25px;
+	padding-left: 70px;
+	padding-top: 8px;
+	display: none;
+}
+.timKiem {
+	position: absolute;
+	right: 10px;
+	top: 7px;
+}
+
+.contact-box{
+	border:2px yellowgreen;
+	border-radius: 5px;
+	height:auto;
+	width: auto;
+	/* background-color: rgb(196, 218, 218); */
+	background-color: #eceded;
+	margin-left:15%;
+	margin-right: 15%;
+}
+.contact-box-top{
+	border-radius: 5px 5px 0 0;
+	background-color: brown;
+	height: 13%;
+}
+.contact-subject{
+	height: 100px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.form-control{
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+.endpage{
+	height:30px;	
+}
+/* input */
+.timKiem .form-control{
+	border: 1px solid #ddd;
+}
+.timKiem .form-control:focus{
+	/* outline-style: none !important; */
+	border: 1px solid red;
+}
+
