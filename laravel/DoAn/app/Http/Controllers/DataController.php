@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Data;
 use Illuminate\Http\Request;
 
+use App\Image;
+
 class DataController extends Controller
 {
     /**
@@ -14,7 +16,8 @@ class DataController extends Controller
      */
     public function index()
     {
-        return view('conponent.trangChu');
+        
+       
     }
 
     /**
@@ -29,7 +32,11 @@ class DataController extends Controller
     // 
     public function trangChu()
     {
-        return view('component.trangChu');
+        $arr = [
+            'listImage' => Image::get(),
+        ];
+
+        return view('component.trangChu', $arr);
     }
 
     public function monAn()

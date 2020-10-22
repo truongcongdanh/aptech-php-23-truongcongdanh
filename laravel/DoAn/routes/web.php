@@ -22,4 +22,7 @@ Route::get('thucUong', 'DataController@thucUong')->name('trangThucUong');
 Route::get('compo', 'DataController@compo')->name('trangCompo');
 Route::get('giamGia', 'DataController@giamGia')->name('trangGiamGia');
 Route::get('lienHe', 'DataController@lienHe')->name('trangLienHe');
+// 
+Route::get('image', 'ImageController@index')->name('trangThemMon');
+Route::post('image', 'ImageController@save');
 

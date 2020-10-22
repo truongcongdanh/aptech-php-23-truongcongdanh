@@ -18,6 +18,8 @@
                         <hr>
                     <li><a href="{{ route('trangLienHe') }}">Liên Hệ</a></li>
                         <hr>
+                    <li><a href="{{ route('trangThemMon') }}">Thêm Món</a></li>
+                        <hr>
                 </ul>
              
             </div>

@@ -12,9 +12,9 @@ class DoAnTableSeeder extends Seeder
     public function run()
     {
         DoAn::create([
-            'name' => 'Tôm Tít Hấp Hành',
+            'ten' => 'Tôm Tít Hấp Hành',
             'gia' => '150.000đ',
-            'img' => 'http://localhost:8000/img/tomTitHap.jpg'
+            'image' => 'tomTitHap.jpg'
         ]);
     }
 }

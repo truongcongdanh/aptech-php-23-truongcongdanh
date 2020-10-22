@@ -13,11 +13,11 @@ class CreateDataTable extends Migration
      */
     public function up()
     {
-        Schema::create('DoAn', function (Blueprint $table) {
+        Schema::create('images', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('ten');
             $table->string('gia');
-            $table->string('img');
+            $table->string('image');
             $table->timestamps();
         });
     }
@@ -29,6 +29,6 @@ class CreateDataTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('data');
+        Schema::dropIfExists('images');
     }
 }

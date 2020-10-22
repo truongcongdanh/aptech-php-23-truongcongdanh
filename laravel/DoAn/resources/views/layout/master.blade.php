@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="{{asset('css/styles.css')}}">
   <link rel="stylesheet" href="{{asset('OwlCarousel2-2.3.4/dist/assets/owl.carousel.css')}}"> 
   <link rel="stylesheet" href="{{asset('css/food.css')}}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
 </head> 
 <body>
   @include('layout.header')
@@ -32,6 +34,7 @@
   <script rel="stylesheet" src="{{asset('OwlCarousel2-2.3.4/dist/owl.carousel.js')}}"></script>
   <script rel="stylesheet" src="{{asset('js/owlCarousel.js')}}"></script>
   <script rel="stylesheet" src="{{asset('js/DoAn.js')}}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 </body> 
 </html>
