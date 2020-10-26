@@ -4,11 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Data;
 use Illuminate\Http\Request;
-
+use DB;
 use App\Image;
 
 class DataController extends Controller
 {
+   
     /**
      * Display a listing of the resource.
      *
@@ -40,8 +41,10 @@ class DataController extends Controller
     }
 
     public function monAn()
-    {
-        return view('component.monAn');
+    {   
+        $products = DB::table('products')->get(); 
+
+        return view('component.monAn',compact('products'));
     }
  
     public function thucUong()

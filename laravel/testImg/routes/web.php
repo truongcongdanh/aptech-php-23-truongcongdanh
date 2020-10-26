@@ -21,4 +21,4 @@ Route::post('store_image/insert_image', 'StoreImageController@insert_image');
 
 Route::get('store_image/fetch_image/{id}', 'StoreImageController@fetch_image');
 
-Route::get('abc', 'StoreImageController@indexABC');
+

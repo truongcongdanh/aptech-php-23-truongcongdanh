@@ -3,13 +3,15 @@
 
 @extends('layout.master')
 @section('content')
-<!-- title trang -->
-@component('layout.titleTrang.title')
-THÊM MÓN
-@endcomponent
-<!-- Nội dung trang -->
-
-<div class="container">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2">
+            @component('layout.titleTrang.title')
+                THÊM MÓN
+            @endcomponent
+        </div>
+        <div class="col-10">
+        <div class="container">
     <br><br><br>
     @if ($message = Session::get('success'))
      
@@ -27,13 +29,17 @@ THÊM MÓN
         <label for="">Name</label>
         <input type="text" name="name" /> <br>
         <label for="">Price</label>
-        <input type="text" name="price" /> <br>
+        <input type="text"  name="price" /> <br>
         <input id="file-upload" type="file" name="fileUpload" accept="image/*" onchange="readURL(this);">
         <br><br>
         <button type="submit" class="btn btn-success">Thêm</button>
        
     </form>
 </div>
+        </div>
+    </div>
+</div>
+
 
 @endsection
 

@@ -30,7 +30,9 @@ class ImageController extends Controller
         }
         $check = Image::insertGetId($insert);
  
-        return redirect()->back();
+        // return redirect()->back();
+        return redirect()->route('trangChinh');
+
  
     }
 }

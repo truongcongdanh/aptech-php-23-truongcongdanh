@@ -29,10 +29,12 @@ button,h3,b,p a:hover {
 	text-decoration: none;
 }
 
-.img-body .abc {
+.abc {
 	border: 1px solid #dcdcdc;
 	box-shadow: -4px 4px 0 #dcdcdc;
 	padding: 11px;
+}
+.img-layout {
 	background-size: cover;
 }
 
@@ -75,7 +77,7 @@ button,h3,b,p a:hover {
 	width: 100%;
 }
 
-.tenTrang {
+/* .tenTrang {
 	background-image: url(../img/imgTrang.jpg);
 	background-size: cover;
 	height:20vh;
@@ -83,7 +85,7 @@ button,h3,b,p a:hover {
 	font-size: 25px;
 	padding-left: 70px;
 	padding-top: 40px;
-}
+} */
 .tenTrangPhu {
 	position: relative;
 	background-image: url(../img/imgTrang.jpg);
@@ -93,7 +95,7 @@ button,h3,b,p a:hover {
 	font-size: 25px;
 	padding-left: 70px;
 	padding-top: 8px;
-	display: none;
+	/* display: none; */
 }
 .timKiem {
 	position: absolute;

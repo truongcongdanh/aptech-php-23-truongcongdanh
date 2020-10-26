@@ -16,11 +16,6 @@ class StoreImageController extends Controller
        ->with('i', (request()->input('page', 1) - 1) * 5);
     }
 
-    function indexABC()
-    {
-     $data = Images::latest();
-     return view('store_image', compact('data'));
-    }
 
     function insert_image(Request $request)
     {

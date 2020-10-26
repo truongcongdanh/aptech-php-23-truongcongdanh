@@ -1,16 +1,28 @@
 
-<div class="container-fluid p-0">        
-    <div class="tenTrang text-danger"><i>{{$slot}}</i></div>
-</div>
-<!--  -->
-<div class="container-fluid p-0 sticky-top">          
-    <div class="row tenTrangPhu">   
-        <div class="col-5 text-danger"><i>{{$slot}}</i></div>
-        <div class="col-7 text-center timKiem">
-            <form action="/search" method="get" class="d-flex" role="search">
-                <input type="text" placeholder="Địa điểm,món ăn,đồ uống..." class="form-control w-50 h-25">
-                <button type="submit" class="btn"><i class="fa fa-search text-danger"></i></button>
-            </form>
-        </div>          
-    </div> 
-</div> 
+    <div class="container-fluid sticky-top">
+        <div class="row">
+       
+            <div class="col-12 menuKhamPha">               
+            <h5 class="d-none d-md-block text-danger"><i class="fas fa-home pt-4"></i>{{$slot}}</h5>
+                <hr>                       
+                <ul class="list-unstyled menu1 pl-xl-5 pb-3">
+                    <li><a href="{{ route('trangChinh') }}">Trang Chủ</a></li>
+                        <hr>
+                    <li><a href="{{ route('trangMonAn') }}">Món Ăn</a></li>
+                        <hr>
+                    <li><a href="{{ route('trangThucUong') }}">Đồ Uống</a></li>
+                        <hr>
+                    <li><a href="{{ route('trangCompo') }}">Compo</a></li>
+                        <hr>                   
+                    <li><a href="{{ route('trangGiamGia') }}">Giảm Giá</a></li>
+                        <hr>
+                    <li><a href="{{ route('trangLienHe') }}">Liên Hệ</a></li>
+                        <hr>
+                    <li><a href="{{ route('trangThemMon') }}">Thêm Món</a></li>
+                        <hr>
+                </ul>
+             
+            </div>
+           
+        </div>
+    </div>

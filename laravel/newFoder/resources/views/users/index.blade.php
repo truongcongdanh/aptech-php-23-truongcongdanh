@@ -21,7 +21,7 @@ index page
             <th scope="row">{{$user->id}}</th>
             <td>{{$user->name}}</td>
             <td>{{$user->email}}</td>
-            <img src="{{  }}">
+            
             <td class="d-flex align-items-center justify-content-around">
               <form action="{{route('users.show',$user->id)}}" method="get">
               <button type="submit" class="jeg_search_button btn"><i class="fas fa-eye fa-lg"></i></button>

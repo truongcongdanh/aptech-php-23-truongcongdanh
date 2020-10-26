@@ -13,10 +13,10 @@ class CreateDataTable extends Migration
      */
     public function up()
     {
-        Schema::create('images', function (Blueprint $table) {
+        Schema::create('image', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('ten');
-            $table->string('gia');
+            $table->string('name');
+            $table->string('price');
             $table->string('image');
             $table->timestamps();
         });
@@ -29,6 +29,6 @@ class CreateDataTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('images');
+        Schema::dropIfExists('image');
     }
 }

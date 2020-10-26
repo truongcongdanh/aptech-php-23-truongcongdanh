@@ -1,12 +1,18 @@
 @extends('layout.master')
 @section('content')
 
-@component('layout.titleTrang.title')
-GIẢM GIÁ
-@endcomponent
-
-
-@include('component.menuDoAn')
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2">
+            @component('layout.titleTrang.title')
+            GIẢM GIÁ
+            @endcomponent
+        </div>
+        <div class="col-10">
+        @include('component.menuDoAn')
+        </div>
+    </div>
+</div>
 
 @endsection
 

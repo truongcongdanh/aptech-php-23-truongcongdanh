@@ -1,11 +1,15 @@
 @extends('layout.master')
 @section('content')
 <!-- title trang -->
-@component('layout.titleTrang.title')
-LIÊN HỆ
-@endcomponent
-
-    <!-- Nội dung trang -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2">
+            @component('layout.titleTrang.title')
+            LIÊN HỆ
+            @endcomponent
+        </div>
+        <div class="col-10">
+            <!-- Nội dung trang -->
     <div class="container-fluid mt-3">
 <div class="row">
     <div class="col-6">
@@ -62,5 +66,11 @@ LIÊN HỆ
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2312.8748715386364!2d108.24509368444166!3d16.065002043001773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc40acf932b30608c!2zSOG6o2kgU-G6o24gxJDDoCBO4bq1bmcgTeG7uSBI4bqhbmg!5e0!3m2!1svi!2s!4v1602307290157!5m2!1svi!2s" 
         width="100%" height="450" frameborder="0" style="border:2px red;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
+        </div>
+    </div>
+</div>
+
+
+    
 @endsection
 

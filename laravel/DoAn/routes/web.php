@@ -26,3 +26,15 @@ Route::get('lienHe', 'DataController@lienHe')->name('trangLienHe');
 Route::get('image', 'ImageController@index')->name('trangThemMon');
 Route::post('image', 'ImageController@save');
 
+// thêm món ăn
+Route::get('themMonAn', 'ThemMonAnController@index');
+
+Route::post('themMonAn/insert_image', 'ThemMonAnController@insert_image');
+
+Route::get('themMonAn/fetch_image/{id}', 'ThemMonAnController@fetch_image');
+
+// Show món ăn
+Route::get('showMonAn', 'CartController@showMonAn');
+Route::get('AddCart/{id}', 'CartController@addCart');
+Route::get('deleteItemCart/{id}', 'CartController@DeleteItemCart');
+
