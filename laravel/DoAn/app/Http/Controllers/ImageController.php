@@ -29,8 +29,6 @@ class ImageController extends Controller
            $insert['price'] =$request->input('price');
         }
         $check = Image::insertGetId($insert);
- 
-        // return redirect()->back();
         return redirect()->route('trangChinh');
 
  

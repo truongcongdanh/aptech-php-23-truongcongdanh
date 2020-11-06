@@ -1,9 +1,8 @@
 
-    <div class="container-fluid sticky-top">
-        <div class="row">
-       
+    <div class="container-fluid d-none d-md-block sticky-top">
+        <div class="row">       
             <div class="col-12 menuKhamPha">               
-            <h5 class="d-none d-md-block text-danger"><i class="fas fa-home pt-4"></i>{{$slot}}</h5>
+            <h5 class="text-danger"><i class="fas fa-home pt-4"></i>{{$slot}}</h5>
                 <hr>                       
                 <ul class="list-unstyled menu1 pl-xl-5 pb-3">
                     <li><a href="{{ route('trangChinh') }}">Trang Chủ</a></li>
@@ -22,7 +21,6 @@
                         <hr>
                 </ul>
              
-            </div>
-           
+            </div>          
         </div>
     </div>

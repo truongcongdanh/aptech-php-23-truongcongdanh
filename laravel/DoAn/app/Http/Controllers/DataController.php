@@ -28,7 +28,7 @@ class DataController extends Controller
      */
     public function create()
     {
-        //
+        return view('component.create');
     }
     // 
     public function trangChu()
@@ -49,17 +49,20 @@ class DataController extends Controller
  
     public function thucUong()
     {
-        return view('component.thucUong');
+        $products = DB::table('products')->get(); 
+        return view('component.thucUong',compact('products'));
     }
 
     public function compo()
     {
-        return view('component.compo');
+        $products = DB::table('products')->get();
+        return view('component.compo',compact('products'));
     }
 
     public function giamGia()
     {
-        return view('component.giamGia');
+        $products = DB::table('products')->get();
+        return view('component.giamGia',compact('products'));
     }
 
     public function lienHe()
@@ -76,7 +79,12 @@ class DataController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // $product = new Product();
+        // $product->name = $request->name;
+        // $product->price = $request->price;
+        // $product->image = $request->image;
+        // $product->save();
+        // return redirect()->route('component.monAn');
     }
 
     /**
@@ -122,5 +130,15 @@ class DataController extends Controller
     public function destroy(Data $data)
     {
         //
+    }
+    // search
+    public function search(Request $request)
+    {
+        //  $user = User::where('name', 'like', '%' . $request . '%')->get();
+        
+        $search = $request->get('search');
+        // dd($search);
+        $products = DB::table('products')->where('name', 'like','%' .$search.'%')->get();
+        return view('component.monAn',compact('products'));
     }
 }

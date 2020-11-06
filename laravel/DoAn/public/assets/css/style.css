@@ -6,6 +6,9 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
+#change-item-cart table tbody tr td img{
+	width : 70px;
+}
 
 h1,
 h2,
@@ -380,7 +383,7 @@ ol {
 
 .inner-header .nav-right li.cart-icon .cart-hover {
 	position: absolute;
-	right: -70px;
+	right: -30px;
 	top: 100px;
 	width: 350px;
 	background: #ffffff;

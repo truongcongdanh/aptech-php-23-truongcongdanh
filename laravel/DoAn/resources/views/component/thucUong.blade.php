@@ -8,7 +8,7 @@
             @endcomponent
         </div>
         <div class="col-10">
-        @include('component.menuDoAn')
+        @include('component.ShowMonAn')
         </div>
     </div>
 </div>

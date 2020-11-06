@@ -38,3 +38,10 @@ Route::get('showMonAn', 'CartController@showMonAn');
 Route::get('AddCart/{id}', 'CartController@addCart');
 Route::get('deleteItemCart/{id}', 'CartController@DeleteItemCart');
 
+Route::get('search', 'DataController@search');
+
+Route::get('create','DataController@create');
+// Route::post('addimage','DataController@store')->name('addimage');
+
+
+
