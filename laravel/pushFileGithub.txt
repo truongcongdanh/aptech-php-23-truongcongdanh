@@ -1,0 +1,50 @@
+ git init
+ git remote add origin https://github.com/truongcongdanh/aptech-php-23-truongcongdanh.git
+ git add .
+ git commit -m "lan 2"
+ git push -u origin master
+
+serverless vs monolith //cần khi phỏng vấn
+Uphpphp
+vscs cheate sheet //các câu lệnh tắt
+
+php artisan migrate --seed	// chạy migration và seeder
+php artisan make:model User -mcr	// tạo model,controller,seeder và 7 function
+php artisan migrate:refresh --seed	// xóa và chạy lại
+
+composer install cài component phụ thuộc nếu gặp 1 ít file bị lỗi	
+
+@if(Route::currentRouteName() != users.create) //không hiển thị layout nào đó
+category
+
+*tải project khác trên github về máy và chạy:
+1.Truy cập vào C:/xampp/htdocs, bật git bash và clone repository bằng câu lệnh : git clone https://github.com/namnh06/aptech-php-laravel-crud.git
+2.Khởi động XAMPP.
+3.Truy cập vào repository aptech-php-laravel-crud và sử dụng câu lệnh : composer install để cài đặt.
+4.Tạo file .env và copy dữ liệu file .env.example sang, chỉnh sửa kết nối đến database.
+5.Tạo key cho ứng dụng bằng câu lệnh : php artisan key:generate.
+6.Chạy php artisan migrate để tự động tạo bảng users trong database đã thiết lập.
+7.Chạy php artisan db:seed --class=UsersTableSeeder để seed dữ liệu vào bảng users.
+8.Truy cập vào đường dẫn localhost/aptech-php-laravel-crud để tận hưởng thành quả :).
+
+phân trang: pagination laravel
+
+@stack 	//dùng link js,css... cho 1 trang riêng
+
+mô hình achar scrum
+
+use Illuminate\Support\Facades\DB;
+
+$ git push origin master --force => xóa hết file có trong thư mục và tải lên lại
+
+tìm hiểu templates và API
+javascript hover
+
+git pull origin master
+
+fetch lấy về
+merge đưa vào
+
+000webhostapp
+
+mã hóa password cho file đăng ký: $user->password = Hash::make($request->password);  use Illuminate\Support\Facades\Hash;
